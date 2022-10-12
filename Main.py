@@ -41,7 +41,7 @@ def merge_sort(myList) -> None:
       myList[k]=right[j]
       j += 1
       k += 1
-return myList
+  return myList
 
 # Do not change the following code
 nums1 = []
