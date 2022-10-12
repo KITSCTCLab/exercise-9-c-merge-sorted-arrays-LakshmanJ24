@@ -27,20 +27,20 @@ def merge_sort(myList) -> None:
         myList[k] = left[i]
         # Move the iterator forward
         i += 1
-      else:
-        myList[k] = right[j]
-        j += 1
+        else:
+          myList[k] = right[j]
+          j += 1
         # Move to the next slot
-      k += 1
+        k += 1
         # For all the remaining values
-    while i < len(left):
-      myList[k] = left[i]
-      i += 1
-      k += 1
-    while j < len(right):
-      myList[k]=right[j]
-      j += 1
-      k += 1
+      while i < len(left):
+        myList[k] = left[i]
+        i += 1
+        k += 1
+      while j < len(right):
+        myList[k]=right[j]
+        j += 1
+        k += 1
   return myList
 
 # Do not change the following code
